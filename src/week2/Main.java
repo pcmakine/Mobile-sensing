@@ -12,6 +12,6 @@ public class Main {
                                     {6, 44}
         };
         List annotationNames = Arrays.asList("running", "walking");
-        new AnnotationCalc(annotationMatrix, annotationNames).getCohenKappa();
+        new AnnotationCalc(new AnnotationMatrix(annotationMatrix), annotationNames).getCohenKappa();
     }
 }
